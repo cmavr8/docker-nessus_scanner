@@ -24,9 +24,9 @@ Each image is tagged with the major, minor, and patch releases.  The most curren
 
 ```
 docker run -dt \
-    -e LINKING_KEY={LINKING_KEY}\
-    -e SCANNER_NAME={SCANNER_NAME}\
-    --name nessus_scanner
+    -e LINKING_KEY={LINKING_KEY} \
+    -e SCANNER_NAME={SCANNER_NAME} \
+    --name nessus_scanner \
     stevemcgrath/nessus_scanner:latest
 ```
 
